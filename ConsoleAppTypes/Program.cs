@@ -1,7 +1,39 @@
 ﻿// See https://aka.ms/new-console-template for more information
 sbyte Byte = 100;
-byte b = 126;
-// Or SByte Byte = 100 =  namespaces System
+byte n1 = 126;
+int n2 = 1000;
+int n3 = 2147483647;
+long n4 = 2147483648L;  
+bool n5 = true;
+char teste = 's';
+char letra = '\u0041';
+float n6 = 4.5f;
+double n7 = 4.5;
+string nome = "Maria";
+object obj1 = "Alex";
+int Nmin = int.MinValue;
+
 Console.Write(Byte);
 Console.WriteLine();
-Console.Write(b);
+Console.Write(n1);
+Console.Write(n2);
+Console.WriteLine();
+Console.Write(n3);
+Console.WriteLine();
+Console.Write(n4);
+Console.WriteLine();
+Console.Write(n5);
+Console.WriteLine();
+Console.Write(teste);
+Console.WriteLine();
+Console.Write(letra);
+Console.WriteLine();
+Console.Write(n6);
+Console.WriteLine();
+Console.Write(n7);
+Console.WriteLine();
+Console.Write(nome);
+Console.WriteLine();
+Console.Write(obj1);
+Console.WriteLine();
+Console.Write(Nmin);

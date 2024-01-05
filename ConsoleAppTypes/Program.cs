@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-sbyte Byte = 100;
+
+sbyte lbyte = 100;
 byte n1 = 126;
 int n2 = 1000;
 int n3 = 2147483647;
@@ -11,9 +12,9 @@ float n6 = 4.5f;
 double n7 = 4.5;
 string nome = "Maria";
 object obj1 = "Alex";
-int Nmin = int.MinValue;
+int nMin = int.MinValue;
 
-Console.Write(Byte);
+Console.Write(lbyte);
 Console.WriteLine();
 Console.Write(n1);
 Console.Write(n2);
@@ -36,4 +37,4 @@ Console.Write(nome);
 Console.WriteLine();
 Console.Write(obj1);
 Console.WriteLine();
-Console.Write(Nmin);
+Console.Write(nMin);
